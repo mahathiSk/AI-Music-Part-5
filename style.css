@@ -1,0 +1,35 @@
+#Heading {
+    font-size: 30px;
+    font-family: 'Moon Dance', cursive;
+    margin-top: 0px;
+   font-weight: bold;
+   color: greenyellow;
+}
+
+
+.note {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+}
+
+canvas{
+    border-radius: 100px;
+    border: 9px dotted plum;
+    margin-top: 100px; 
+
+    animation-name: shadow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow{
+    from{
+        box-shadow: 1px 1px 30px rgb(139, 0, 104);
+    }
+    to {
+        box-shadow: 1px 1px 40px rgb(178, 34, 34);
+    }
+}
+
+    
